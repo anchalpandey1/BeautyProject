@@ -1,0 +1,13 @@
+.custom-css-on-landing-page{
+    border: 2px solid black;
+    animation: splashAnimationFirst 5s linear;
+}
+
+@keyframes splashAnimationFirst {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

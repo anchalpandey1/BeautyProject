@@ -1,0 +1,25 @@
+/* CSS part */
+
+
+
+.step-item:not(:first-child):before {
+    @apply content-['']  bg-[#DCDCDC] absolute w-[3px] h-full left-[10px] -top-1/2 transform -translate-x-1/2 ;
+}
+
+
+.active .step {
+    /* @apply bg-sky-600; */
+    @apply bg-[#3BA30F] border-[2px] border-[#3BA30F];
+
+}
+
+.complete .step {
+    @apply bg-[#3BA30F] border-[2px] border-[#3BA30F];
+}
+
+
+
+.complete:not(:first-child):before,
+.active:not(:first-child):before {
+    @apply bg-[#3BA30F] h-full;
+}

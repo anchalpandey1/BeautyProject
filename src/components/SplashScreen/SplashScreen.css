@@ -1,0 +1,60 @@
+.castmOnetwo{
+    animation: scooterss 3s linear;
+}
+
+
+@keyframes scooterss {
+    0%{
+        background-image: none;
+        background-color: #A21D3C;
+    }
+    20%{
+        background-color: #A21D3C;
+    }
+    50%{
+        background-color: #a21d3cea;
+    }
+    70%{
+        background-color: #a21d3cb4;
+    }
+}
+
+
+
+.glamgo-log-slider-animation{
+
+    animation: animation-started 2s linear;
+}
+
+@keyframes animation-started {
+    from{
+        width: 650px;
+        height: 270px;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 1024px) {
+    @keyframes animation-started {
+        from{
+            width: 550px;
+            height: 230px;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    @keyframes animation-started {
+        from{
+            width: 290px;
+            height: 125px;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
